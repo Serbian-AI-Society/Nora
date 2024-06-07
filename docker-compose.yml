@@ -1,0 +1,24 @@
+version: '3.9'
+networks:
+  dnetwork:
+    name: flask_docker_metalac_vib_default
+    external: true
+
+services:
+  dnet-llm-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      network: host
+    restart: always 
+    networks:
+     dnetwork: {}
+    ports:
+    - 14511:14511
+    logging:
+        driver: 'json-file'
+        options:
+            max-file: '5'
+            max-size: '20m'    
+    volumes:
+       - /home/ubuntu/docker_containers_flask_api_Dev/flask_docker_llm_nonvidia/nova_idx:/home/appuser/nova/
