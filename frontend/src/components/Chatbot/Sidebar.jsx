@@ -23,10 +23,7 @@ const Sidebar = () => {
           <div className="mt-8 ml-8">
             <div className="font-rub text-3xl font-semibold text-white text-center w-48 bg-blue h-10">Nova</div>
           </div>
-          {/* <div className="text-black font-semibold text-left w-64 h-10 mt-2 ml-8">
-            <div className="font-rub text-25 font-semibold leading-20 tracking-wider">Ask a question,</div>
-            <div className="font-rub text-25 font-semibold leading-20 tracking-wider">get an answer! 24/7</div>
-          </div> */}
+          {
           <div className="flex-grow"></div>
           <img src={mainImage} alt="MainImage" className="w-auto h-auto mt-4" />
         </div>
@@ -60,15 +57,7 @@ const Sidebar = () => {
                           </a>
                         </div>
                         <div className="mt-36 pl-3">
-                          <div className="font-rub text-3xl font-semibold text-center w-48 bg-blue h-10">AgChatBot</div>
-                        </div>
-                        <div className="text-black font-semibold text-left w-64 h-10 pl-6">
-                          <div className="font-rub text-25 font-semibold leading-20 tracking-wider">
-                            Ask a question,
-                          </div>
-                          <div className="font-rub text-25 font-semibold leading-20 tracking-wider">
-                            get an answer! 24/7
-                          </div>
+                          <div className="font-rub text-3xl font-semibold text-center w-48 bg-blue h-10">Nova</div>
                         </div>
                         <div className="flex-grow"></div>
                         <img src={mainImage} alt="MainImage" className="w-auto h-auto mt-4 px-0 py-0" />
