@@ -13,7 +13,7 @@ const Chatmessage = ({ messages, handleCopyToClipboard }) => {
           <div className=" gap-4 md:gap-6 m-auto md:max-w-2xl lg:max-w-2xl xl:max-w-3xl p-3 md:py-6 flex lg:px-0">
             <div className="w-[30px] flex flex-col relative items-end">
               <div className="relative h-[30px] w-[30px] p-1 bg-grey rounded-2xl text-white flex items-center justify-center">
-                <img alt={message.isUser ? 'You' : 'Agronet Solutions'} src={message.isUser ? User : Icon} />
+                <img alt={message.isUser ? 'You' : 'Nova'} src={message.isUser ? User : Icon} />
               </div>
             </div>
 
